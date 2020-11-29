@@ -1,0 +1,2 @@
+D:\学习\数据结构\哈夫曼编码\Project1\Debug\Project1.exe
+D:\学习\数据结构\哈夫曼编码\Project1\Debug\Project1.pdb
