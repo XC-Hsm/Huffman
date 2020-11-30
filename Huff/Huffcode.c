@@ -82,7 +82,6 @@ void WCharInfo(PtrcInfo pinfo, char* file, long long* pbytes) {
 		if (pinfo[i].weight != 0)
 		{
 			fwrite(&pinfo[i], sizeof(CharInfo), 1, OutFile);
-			printf("%c->%d", pinfo[i].c, pinfo[i].weight);
 			bytes++;
 		}
 	}
@@ -117,6 +116,7 @@ void HuffCode(PtrHuff L, CodeNode* code, PtrStack st) {
 	pop(st);
 	return;
 }
+
 void InitArray(char* f, int* w) {
 	FILE* InFile = fopen(f, "r");
 	if (InFile == NULL)
@@ -126,7 +126,7 @@ void InitArray(char* f, int* w) {
 	}
 	int ch = fgetc(InFile);
 	while (!feof(InFile)) {
-		if (ch >= 0) {
+		if (ch >= 0 && ch <= MAXCHARSIZE) {
 			w[ch]++;
 			ch = fgetc(InFile);
 		}

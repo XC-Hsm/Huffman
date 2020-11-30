@@ -139,16 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Address\Address.c" />
     <ClCompile Include="Huff\Huffcode.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="SeqStack\seqstack.c" />
+    <ClCompile Include="third_part\Address.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Address\Address.h" />
     <ClInclude Include="Huff\Huffcode.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="SeqStack\seqstack.h" />
+    <ClInclude Include="third_part\Address.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

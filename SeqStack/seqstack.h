@@ -1,5 +1,5 @@
 #pragma once
-#define MAXCHARSIZE 256
+#define MAXCHARSIZE 128
 typedef struct SeqStack {
 	char code[MAXCHARSIZE];
 	int top;

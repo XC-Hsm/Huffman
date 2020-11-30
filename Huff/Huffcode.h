@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include"../SeqStack/seqstack.h"
-#include "../Address/Address.h"
+#include "../third_part/Address.h"
 #define O(ch,i) ch |= 1<<i
 #define Z(ch,i) ch &= ~(1<<i)
 typedef struct CharInfo {

@@ -8,35 +8,35 @@
     <Filter Include="SeqStack">
       <UniqueIdentifier>{04dfc925-b2c3-4e07-a85d-0581826879db}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Address">
-      <UniqueIdentifier>{05a1e4ce-7a4f-49eb-91dc-43268ec197fa}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Huff">
       <UniqueIdentifier>{f0e21a12-4dd9-4b85-91f1-b44618fd7ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_part">
+      <UniqueIdentifier>{473debc2-e769-45af-9a15-d325e9b50218}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SeqStack\seqstack.c">
       <Filter>SeqStack</Filter>
     </ClCompile>
-    <ClCompile Include="Address\Address.c">
-      <Filter>Address</Filter>
-    </ClCompile>
     <ClCompile Include="Huff\Huffcode.c">
       <Filter>Huff</Filter>
     </ClCompile>
     <ClCompile Include="main.c" />
+    <ClCompile Include="third_part\Address.c">
+      <Filter>third_part</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SeqStack\seqstack.h">
       <Filter>SeqStack</Filter>
     </ClInclude>
-    <ClInclude Include="Address\Address.h">
-      <Filter>Address</Filter>
-    </ClInclude>
     <ClInclude Include="Huff\Huffcode.h">
       <Filter>Huff</Filter>
     </ClInclude>
     <ClInclude Include="main.h" />
+    <ClInclude Include="third_part\Address.h">
+      <Filter>third_part</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
