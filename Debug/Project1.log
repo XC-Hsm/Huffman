@@ -1,30 +1,22 @@
-﻿  Huff.c
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(12,12): warning C4133: “函数”: 从“PtrHuff”到“int *”的类型不兼容
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(12,20): warning C4047: “函数”:“PtrHuff *”与“int [256]”的间接级别不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(12,14): warning C4024: “InitList”: 形参和实参 2 的类型不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(15,24): warning C4133: “函数”: 从“CodeNode [256]”到“CodeNode *”的类型不兼容
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(15,28): warning C4133: “函数”: 从“PtrStack”到“char *”的类型不兼容
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(25,14): warning C4098: “Huff”:“void”函数返回值
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(30,14): warning C4098: “Huff”:“void”函数返回值
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(45,13): warning C4047: “函数”:“int”与“char *”的间接级别不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(45,11): warning C4024: “fputc”: 形参和实参 1 的类型不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(53,11): warning C4047: “函数”:“int”与“char *”的间接级别不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(53,9): warning C4024: “fputc”: 形参和实参 1 的类型不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(61,13): warning C4098: “WCharInfo”:“void”函数返回值
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(90,36): warning C4028: 形参 2 与声明不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(90,51): warning C4028: 形参 3 与声明不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(108,13): warning C4098: “InitArray”:“void”函数返回值
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(119,23): warning C4028: 形参 1 与声明不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(119,30): warning C4028: 形参 2 与声明不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(140,22): warning C4047: “函数”:“PtrHuff”与“PtrHuff *”的间接级别不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(140,14): warning C4024: “SeekMin”: 形参和实参 2 的类型不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(140,32): warning C4047: “函数”:“PtrHuff”与“PtrHuff *”的间接级别不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(140,24): warning C4024: “SeekMin”: 形参和实参 3 的类型不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(151,22): warning C4047: “函数”:“char”与“PtrHuff *”的间接级别不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(151,14): warning C4024: “DelNode”: 形参和实参 2 的类型不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(138,42): warning C4101: “ptrD”: 未引用的局部变量
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(155,34): warning C4028: 形参 2 与声明不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(155,52): warning C4028: 形参 3 与声明不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(173,37): warning C4028: 形参 2 与声明不同
-D:\学习\数据结构\哈夫曼编码\Project1\Huff.c(183): warning C4715: “DelNode”: 不是所有的控件路径都返回值
+﻿  Huffcode.c
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(7,14): warning C4098: “EnHuff”:“void”函数返回值
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(38,14): warning C4098: “Huff”:“void”函数返回值
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(43,14): warning C4098: “Huff”:“void”函数返回值
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(77,13): warning C4098: “WCharInfo”:“void”函数返回值
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(107,36): warning C4028: 形参 2 与声明不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(107,51): warning C4028: 形参 3 与声明不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(125,13): warning C4098: “InitArray”:“void”函数返回值
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(136,23): warning C4028: 形参 1 与声明不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(136,31): warning C4028: 形参 2 与声明不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(157,22): warning C4047: “函数”:“PtrHuff”与“PtrHuff *”的间接级别不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(157,14): warning C4024: “SeekMin”: 形参和实参 2 的类型不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(157,32): warning C4047: “函数”:“PtrHuff”与“PtrHuff *”的间接级别不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(157,24): warning C4024: “SeekMin”: 形参和实参 3 的类型不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(168,22): warning C4047: “函数”:“char”与“PtrHuff *”的间接级别不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(168,14): warning C4024: “DelNode”: 形参和实参 2 的类型不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(155,42): warning C4101: “ptrD”: 未引用的局部变量
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(172,34): warning C4028: 形参 2 与声明不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(172,52): warning C4028: 形参 3 与声明不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(190,37): warning C4028: 形参 2 与声明不同
+D:\学习\数据结构\哈夫曼编码\Project1\Huff\Huffcode.c(200): warning C4715: “DelNode”: 不是所有的控件路径都返回值
   Project1.vcxproj -> D:\学习\数据结构\哈夫曼编码\Project1\Debug\Project1.exe

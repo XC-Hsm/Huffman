@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
@@ -15,33 +11,32 @@
     <Filter Include="Address">
       <UniqueIdentifier>{05a1e4ce-7a4f-49eb-91dc-43268ec197fa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Huff">
+      <UniqueIdentifier>{f0e21a12-4dd9-4b85-91f1-b44618fd7ec0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="源1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Huff.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="SeqStack\seqstack.c">
       <Filter>SeqStack</Filter>
     </ClCompile>
     <ClCompile Include="Address\Address.c">
       <Filter>Address</Filter>
     </ClCompile>
+    <ClCompile Include="Huff\Huffcode.c">
+      <Filter>Huff</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SeqStack\seqstack.h">
       <Filter>SeqStack</Filter>
     </ClInclude>
-    <ClInclude Include="Huff.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
     <ClInclude Include="Address\Address.h">
       <Filter>Address</Filter>
     </ClInclude>
+    <ClInclude Include="Huff\Huffcode.h">
+      <Filter>Huff</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
   </ItemGroup>
 </Project>

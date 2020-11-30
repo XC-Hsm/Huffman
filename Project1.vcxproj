@@ -140,14 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Address\Address.c" />
-    <ClCompile Include="Huff.c" />
+    <ClCompile Include="Huff\Huffcode.c" />
+    <ClCompile Include="main.c" />
     <ClCompile Include="SeqStack\seqstack.c" />
-    <ClCompile Include="源.cpp" />
-    <ClCompile Include="源1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Address\Address.h" />
-    <ClInclude Include="Huff.h" />
+    <ClInclude Include="Huff\Huffcode.h" />
+    <ClInclude Include="main.h" />
     <ClInclude Include="SeqStack\seqstack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
