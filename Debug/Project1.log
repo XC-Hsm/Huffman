@@ -1,16 +1,19 @@
 ﻿  main.c
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(7,9): warning C4129: “(”: 不可识别的字符转义序列
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(27,13): warning C4133: “函数”: 从“PtrHuff”到“int *”的类型不兼容
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(27,21): warning C4047: “函数”:“PtrHuff *”与“int [128]”的间接级别不同
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(27,15): warning C4024: “InitList”: 形参和实参 2 的类型不同
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(30,25): warning C4133: “函数”: 从“CodeNode [128]”到“CodeNode *”的类型不兼容
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(30,29): warning C4133: “函数”: 从“PtrStack”到“char *”的类型不兼容
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(60,13): warning C4133: “函数”: 从“PtrHuff”到“int *”的类型不兼容
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(60,21): warning C4047: “函数”:“PtrHuff *”与“int [128]”的间接级别不同
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(60,15): warning C4024: “InitList”: 形参和实参 2 的类型不同
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(66,25): warning C4133: “函数”: 从“CodeNode [128]”到“CodeNode *”的类型不兼容
-D:\学习\数据结构\哈夫曼编码\Project1\main.c(66,29): warning C4133: “函数”: 从“PtrStack”到“char *”的类型不兼容
-  Address.c
-  正在生成代码...
-D:\学习\数据结构\哈夫曼编码\Project1\third_part\Address.c(27): warning C4172: 返回局部变量或临时变量的地址: szBuff
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(16,9): warning C4129: “(”: 不可识别的字符转义序列
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(36,13): warning C4133: “函数”: 从“PtrHuff”到“int *”的类型不兼容
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(36,21): warning C4047: “函数”:“PtrHuff *”与“int [128]”的间接级别不同
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(36,15): warning C4024: “InitList”: 形参和实参 2 的类型不同
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(39,25): warning C4133: “函数”: 从“CodeNode [128]”到“CodeNode *”的类型不兼容
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(39,29): warning C4133: “函数”: 从“PtrStack”到“char *”的类型不兼容
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(74,13): warning C4133: “函数”: 从“PtrHuff”到“int *”的类型不兼容
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(74,21): warning C4047: “函数”:“PtrHuff *”与“int [128]”的间接级别不同
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(74,15): warning C4024: “InitList”: 形参和实参 2 的类型不同
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(80,25): warning C4133: “函数”: 从“CodeNode [128]”到“CodeNode *”的类型不兼容
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(80,29): warning C4133: “函数”: 从“PtrStack”到“char *”的类型不兼容
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(114,13): warning C4133: “函数”: 从“PtrHuff”到“int *”的类型不兼容
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(114,21): warning C4047: “函数”:“PtrHuff *”与“int [128]”的间接级别不同
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(114,15): warning C4024: “InitList”: 形参和实参 2 的类型不同
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(120,25): warning C4133: “函数”: 从“CodeNode [128]”到“CodeNode *”的类型不兼容
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(120,29): warning C4133: “函数”: 从“PtrStack”到“char *”的类型不兼容
+D:\学习\数据结构\哈夫曼编码\Project1\main.c(136,60): warning C4244: “函数”: 从“__int64”转换到“size_t”，可能丢失数据
   Project1.vcxproj -> D:\学习\数据结构\哈夫曼编码\Project1\Debug\Project1.exe

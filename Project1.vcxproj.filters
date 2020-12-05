@@ -14,6 +14,9 @@
     <Filter Include="third_part">
       <UniqueIdentifier>{473debc2-e769-45af-9a15-d325e9b50218}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BM">
+      <UniqueIdentifier>{876abbed-6af4-4d3e-94dc-6a96778a7e54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SeqStack\seqstack.c">
@@ -26,6 +29,9 @@
     <ClCompile Include="third_part\Address.c">
       <Filter>third_part</Filter>
     </ClCompile>
+    <ClCompile Include="BM\BM.c">
+      <Filter>BM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SeqStack\seqstack.h">
@@ -37,6 +43,9 @@
     <ClInclude Include="main.h" />
     <ClInclude Include="third_part\Address.h">
       <Filter>third_part</Filter>
+    </ClInclude>
+    <ClInclude Include="BM\BM.h">
+      <Filter>BM</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

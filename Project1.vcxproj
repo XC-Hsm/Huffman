@@ -139,12 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BM\BM.c" />
     <ClCompile Include="Huff\Huffcode.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="SeqStack\seqstack.c" />
     <ClCompile Include="third_part\Address.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BM\BM.h" />
     <ClInclude Include="Huff\Huffcode.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="SeqStack\seqstack.h" />
